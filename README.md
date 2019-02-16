@@ -19,10 +19,10 @@ $ git commit -m "first commit"
 
 ## Heroku環境にアプリを作成
 
-<<app name>>は任意の名前、指定しない場合はランダムな名前でアプリが作成される
+[app name]は任意の名前、指定しない場合はランダムな名前でアプリが作成される
 
 ```
-$ heroku create <<app name>>
+$ heroku create [app name]
 ```
 
 ## Heroku環境にリポジトリの内容をデプロイ
