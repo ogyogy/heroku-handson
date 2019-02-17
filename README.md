@@ -72,7 +72,6 @@ $ heroku create [app name]
     |KEY|VALUE|
     |---|---|
     |CHANNEL_ACCESS_TOKEN|Access Token|
-    |---|---|
     |CHANNEL_SECRET|Channel Secret|
 
     - Access Token、Channel Secretの値は、[LINEDevelopersのアカウント](https://developers.line.biz/ja/)から作成したチャンネルの設定情報を入力
