@@ -61,7 +61,11 @@ $ heroku create [app name]
 ### Heroku+GitHubを連携して自動デプロイ
 
 1. [HEROKU](https://jp.heroku.com/)の自身のアカウントにアクセス
-2. Deploy → Automatic deploysからEnable Automatic Deploysを有効にする
+2. ダッシュボードから，heroku createで作成したapp nameにアクセス
+3. Deployタブを選択し，下記の1~3を実行
+    1. Deployment method → GitHubを選択
+    2. App connected to GitHub → 上記で作成したGitHubのリポジトリを選択し，Connect 
+    3. Automatic deploys → Enable Automatic Deploysを有効にする
 
 ### Herokuアプリの環境変数設定
 
@@ -100,6 +104,14 @@ https://Herokuアプリ名.herokuapp.com/callback
 
 - LINEのチャンネル設定上のQRコードでアプリ名を友達追加
 - アプリを開き文字を送ると同じ文字が返ってくれば成功
+
+### 失敗する場合
+#### 「Heroku+GitHubを連携して自動デプロイ」の際に，既にソースファイルが存在しているリポジトリをデプロイすると失敗する
+- 下記の手順で対処
+    1. [HEROKU](https://jp.heroku.com/)の自身のアカウントにアクセス
+    2. ダッシュボードから，heroku createで作成したapp nameにアクセス
+    3. Deployタブを選択
+    4. Manual deploy → Deploy Branchを有効にする
 
 ## Heroku環境にリポジトリの内容をデプロイ
 
