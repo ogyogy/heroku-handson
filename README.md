@@ -78,7 +78,7 @@ $ heroku create [app name]
     |CHANNEL_ACCESS_TOKEN|Access Token|
     |CHANNEL_SECRET|Channel Secret|
 
-    - Access Token、Channel Secretの値は、[LINEDevelopersのアカウント](https://developers.line.biz/ja/)から作成したチャンネルの設定情報を入力
+    - Access Token、Channel Secretの値は、[LINEDevelopers](https://developers.line.biz/ja/)で作成したチャンネルの設定情報を入力
 
 2. 以下のコマンドを入力して2.で設定した環境変数が正しく設定されていることを確認
 
@@ -92,7 +92,7 @@ $ heroku config
 3. 2.で展開したフォルダ内のすべてのファイルを連携したGitHubリポジトリにpush
 
 ## LINE Developersアカウントでの設定
-1. 自身の[LINEDevelopersのアカウント](https://developers.line.biz/ja/)にアクセス
+1. 自身の[LINEDevelopers](https://developers.line.biz/ja/)にアクセスしてログイン
 1. 今回作成したLINEチャンネルの設定情報にアクセス
 1. Webhook URLに以下のURLを設定
 
