@@ -1,3 +1,3 @@
-# heroku-hanson
+# heroku-handson
 
-[GitHub Pages](https://ogyogy.github.io/heroku-hanson/)
+[GitHub Pages](https://ogyogy.github.io/heroku-handson/)
